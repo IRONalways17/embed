@@ -1,0 +1,86 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+ 
+<!-- Mirrored from 68.178.167.68:8080/res/emb_c_tut/c01_p01.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 04 Feb 2025 05:05:50 GMT -->
+<head>
+  <title>C Programming for Embedded Systems Chapter 1 Page 1 </title>
+  <meta name="Author" content="WittyRobo">
+  <meta name="Keywords" content="Robotics, microcontroller, opensource, programming, project, Arduino UNO, Atmega328P, POV Display">
+  <meta name="Description" content="Opensource robotics hardware">
+  <link rel="stylesheet" type="text/css" href="styl_povpd.css" />
+ </head>
+
+ <body>
+ <div id=content>
+<!-- This page is downloaded from www.WittyRobo.org -->
+ <table>
+	<tr>
+    	<td><a href="http://68.178.167.68:8080/res/index.html">WR Home</a>  &nbsp;&nbsp;&nbsp;&nbsp; <a href="index.html">Topic Home</a></td>
+        <td>  &nbsp;&nbsp;&nbsp;&nbsp; Chapter: <a href="c01_p01.html">&nbsp;1&nbsp;</a>
+        </td>
+	</tr>
+	<tr>
+<td>&lt;Previous</td>
+
+<td><a href="c01_p02.html">Next&gt;</a></td>
+
+	</tr>
+ </table>
+ <hr>
+<!-- ###### -->
+<h2>Chapter 01 </h2>
+<h3>Hello World in the Hardware World !</h3>
+<h4>Page  1</h4>
+<h5></h5>
+<b></b>
+The initial chapter (as the name suggests) is very important!
+<br>Why: The chapter name is Chapter ZERO-ONE
+<br><br>To understand the basic concepts of micro-controller based programming.... let&rsquo;s make it simpler, forget the microcontroller. 
+<br><br>Let&rsquo;s make some assumptions with desktop computer. Imagine that you have a PC and it is having the old fashioned printer port. The printer port was used to connect the printer to the PC in olden times (prior to the USB revolution!). The rear part of the PC had a special 25-pin connector (un-like the USB port, which has only 4 pins). The connector was D-shaped (so that someone can&rsquo;t connect it in a wrong way, Just like you can only connect the USB pen-drive when it matches the connector in the right way). It was also called as parallel port.
+<table>
+<tr>
+	<td><img src="images/c01_p01_i01_pp_n_cable.jpg" width="440" height="370" border="0" alt="PC Rear"></td>
+	<td><img src="images/c01_p01_i02_pp_cabinate.gif" width="298" height="273" border="0" alt="Port"></td>
+</tr>
+</table>
+ 	 
+
+
+The printer was connected to the PC and data to be printed was transmitted from PC to the printer. The data to be printed consisted of ASCII characters. For example if &lsquo;A&rsquo; was to be printed then the ASCII value of &lsquo;A&rsquo; was transmitted from PC to the printer. The ASCII value of &lsquo;A&rsquo; in decimal is 65, in hexadecimal its 41 and in binary its 0100-0001.
+The eight bits were transmitted in parallel, i.e. eight different wires were used to transmit the eight bits. Hence it was called a parallel port.
+
+<p>Data Direction: Most data was transmitted from the PC to the printer and sometimes some data, was transmitted from the printer to the PC. If the printer was out of paper, then it used some pins to indicate that. Printer is a electro-mechanical device and computer is an electronic device. The computer can send the data too fast, the printer can&rsquo;t print that fast, so printer stores the data in memory-buffer. But when the buffer overflows the printer can inform the computer that, stop sending the data for some time. </p>
+<p> All the signals going from PC to printer are considered as output signals. All the signals/pins/wires carrying information from printer to PC are called input pins. So we name the pins w.r.t. PC, if pins takes signals in the PC they are input pins. Some pins may be bidirectional as well, but it would be well defined that for that particular instant of time they will act as input or output. </p>
+<br><br>
+<img src="images/c01_p01_i03_pp_pin_desc.png" width="523" height="330" border="0" alt="Port Pins">
+ <br><br>
+Just have a look at the above diagram. The pins in yellow are output pins (pins number 2 to 9). The pins in green (pins 18 to 25) are for ground (zero volt). For now, we will only consider these pins.
+<br>Lets consider the simplified diagram:- 
+<br><br>
+<img src="images/c01_p01_i04_pp_simple.png" width="523" height="164" border="0" alt="Simplified">
+
+
+<br><br>
+
+<!-- ###### -->
+ <hr>
+ <table>
+	<tr>
+    	<td><a href="http://68.178.167.68:8080/res/index.html">WR Home</a>  &nbsp;&nbsp;&nbsp;&nbsp; <a href="index.html">Topic Home</a></td>
+        <td>  &nbsp;&nbsp;&nbsp;&nbsp; Chapter: <a href="c01_p01.html">&nbsp;1&nbsp;</a>
+        </td>
+	</tr>
+	<tr>
+<td>&lt;Previous</td>
+
+<td><a href="c01_p02.html">Next&gt;</a></td>
+
+	</tr>
+ </table>
+ </p></div>
+ </body>
+
+
+<!-- Mirrored from 68.178.167.68:8080/res/emb_c_tut/c01_p01.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 04 Feb 2025 05:06:36 GMT -->
+</html>
+<!-- This page is downloaded from www.WittyRobo.org -->

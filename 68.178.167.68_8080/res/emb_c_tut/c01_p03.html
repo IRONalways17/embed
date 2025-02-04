@@ -1,0 +1,87 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+ 
+<!-- Mirrored from 68.178.167.68:8080/res/emb_c_tut/c01_p03.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 04 Feb 2025 05:08:41 GMT -->
+<head>
+  <title>C Programming for Embedded Systems Chapter 1 Page 3 </title>
+  <meta name="Author" content="WittyRobo">
+  <meta name="Keywords" content="Robotics, microcontroller, opensource, programming, project, Arduino UNO, Atmega328P, POV Display">
+  <meta name="Description" content="Opensource robotics hardware">
+  <link rel="stylesheet" type="text/css" href="styl_povpd.css" />
+ </head>
+
+ <body>
+ <div id=content>
+<!-- This page is downloaded from www.WittyRobo.org -->
+ <table>
+	<tr>
+    	<td><a href="http://68.178.167.68:8080/res/index.html">WR Home</a>  &nbsp;&nbsp;&nbsp;&nbsp; <a href="index.html">Topic Home</a></td>
+        <td>  &nbsp;&nbsp;&nbsp;&nbsp; Chapter: <a href="c01_p01.html">&nbsp;1&nbsp;</a>
+        </td>
+	</tr>
+	<tr>
+<td><a href="c01_p02.html">&lt;Previous</a></td>
+
+<td><a href="c01_p04.html">Next&gt;</a></td>
+
+	</tr>
+ </table>
+ <hr>
+<!-- ###### -->
+<h2>Chapter 01 </h2>
+<h3>Hello World in the Hardware World !</h3>
+<h4>Page  3</h4>
+<h5></h5>
+<b>Recalling from previous page:</b>
+  
+<br>
+If outportb(0x378, 0xff); is called from a C-program, then all LEDs must glow. As 0xff (1111- 1111 in binary) will set all the pins (Pin2 to Pin9) to Logic_1 or +5V.
+<br><br>
+Similarly, if outportb(0x378, 0x00); is called from a C-program, then all the LEDs will be off. As 0x00 (0000- 0000 in binary) will clear all the pins (Pin2 to Pin9) to Logic_0 or Ground-voltage or Zero-volt.
+<br><br>
+Now consider the following code fragments and imagine what will happen to the LEDs: 
+<table>
+<tr>
+	<td><img src="images/c01_p03_i01_bink_all.gif" width="566" height="394" border="0" alt=""></td>
+	<td><img src="images/c01_p03_i02_code_blink.png" width="317" height="259" border="0" alt="Code"></td>
+</tr>
+</table>
+<br><br>
+
+ <br><br>
+
+<br> Line 11 switches ON all the LEDs and
+<br> Line 12 switches OFF all the LEDs
+<br> Using this program can you see the LEDs Blinking?
+
+<br> The ANS is <b>NO</b>
+<br>Why? 
+<br>The answer is given below :
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+The computer executes the instructions very fast, so as soon as the LEDs are switched ON, they are switched OFF, this cycle repeats till the program is forcefully terminated. The user can&rsquo;t visualize the LED&rsquo;s being blinking. 
+<br><br>
+
+<br><br>
+
+<!-- ###### -->
+ <hr>
+ <table>
+	<tr>
+    	<td><a href="http://68.178.167.68:8080/res/index.html">WR Home</a>  &nbsp;&nbsp;&nbsp;&nbsp; <a href="index.html">Topic Home</a></td>
+        <td>  &nbsp;&nbsp;&nbsp;&nbsp; Chapter: <a href="c01_p01.html">&nbsp;1&nbsp;</a>
+        </td>
+	</tr>
+	<tr>
+<td><a href="c01_p02.html">&lt;Previous</a></td>
+
+<td><a href="c01_p04.html">Next&gt;</a></td>
+
+	</tr>
+ </table>
+ </p></div>
+ </body>
+
+
+<!-- Mirrored from 68.178.167.68:8080/res/emb_c_tut/c01_p03.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 04 Feb 2025 05:09:23 GMT -->
+</html>
+<!-- This page is downloaded from www.WittyRobo.org -->

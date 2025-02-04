@@ -1,0 +1,43 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 04 Feb 2025 10:35:48 at http://68.178.167.68:8080/res/emb_c_tut/c01_p01.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://68.178.167.68:8080/res/emb_c_tut/c01_p01.html -O1 "C:\My Web Sites\robio" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+10:36:37	Warning: 	Retry after error -4 (Connect Error) at link 68.178.167.68:8080/res/emb_c_tut/styl_povpd.css (from 68.178.167.68:8080/res/emb_c_tut/c01_p01.html)
+10:37:21	Warning: 	Retry after error -4 (Connect Error) at link 68.178.167.68:8080/res/emb_c_tut/images/c01_p01_i03_pp_pin_desc.png (from 68.178.167.68:8080/res/emb_c_tut/c01_p01.html)
+10:37:21	Warning: 	Retry after error -4 (Connect Error) at link 68.178.167.68:8080/res/emb_c_tut/styl_povpd.css (from 68.178.167.68:8080/res/emb_c_tut/c01_p01.html)
+10:37:22	Warning: 	Retry after error -4 (Connect Error) at link 68.178.167.68:8080/res/emb_c_tut/c02_p01.html (from 68.178.167.68:8080/res/emb_c_tut/index.html)
+10:37:25	Warning: 	Retry after error -4 (Connect Error) at link 68.178.167.68:8080/res/emb_c_tut/c01_p03.html (from 68.178.167.68:8080/res/emb_c_tut/c01_p02.html)
+10:39:47	Warning: 	Retry after error -4 (Connect Error) at link 68.178.167.68:8080/res/emb_c_tut/images/c02_p01_i02_code_wo_01_decimal.png (from 68.178.167.68:8080/res/emb_c_tut/c02_p01.html)
+10:39:47	Warning: 	Retry after error -4 (Connect Error) at link 68.178.167.68:8080/res/emb_c_tut/c02_p10.html (from 68.178.167.68:8080/res/emb_c_tut/c02_p11.html)
+10:40:09	Warning: 	Retry after error -4 (Connect Error) at link 68.178.167.68:8080/res/emb_c_tut/c01_p04.html (from 68.178.167.68:8080/res/emb_c_tut/c01_p03.html)
+10:40:09	Warning: 	Retry after error -4 (Connect Error) at link 68.178.167.68:8080/res/emb_c_tut/images/c01_p03_i02_code_blink.png (from 68.178.167.68:8080/res/emb_c_tut/c01_p03.html)
+10:40:11	Warning: 	Retry after error -4 (Connect Error) at link 68.178.167.68:8080/res/emb_c_tut/c02_p03.html (from 68.178.167.68:8080/res/emb_c_tut/c02_p02.html)
+10:40:35	Warning: 	Retry after error -4 (Connect Error) at link 68.178.167.68:8080/res/emb_c_tut/images/c03_p03_i01_code_setbit.png (from 68.178.167.68:8080/res/emb_c_tut/c03_p03.html)
+10:40:36	Warning: 	Retry after error -4 (Connect Error) at link 68.178.167.68:8080/res/emb_c_tut/images/c01_p03_i02_code_blink.png (from 68.178.167.68:8080/res/emb_c_tut/c01_p03.html)
+10:41:01	Warning: 	Retry after error -4 (Connect Error) at link 68.178.167.68:8080/res/emb_c_tut/c02_p03.html (from 68.178.167.68:8080/res/emb_c_tut/c02_p02.html)
+10:41:01	Warning: 	Retry after error -4 (Connect Error) at link 68.178.167.68:8080/res/emb_c_tut/images/c02_p10_i01_code_eight_quest_ynt.png (from 68.178.167.68:8080/res/emb_c_tut/c02_p10.html)
+10:41:25	Error: 	"Connect Error" (-4) after 2 retries at link 68.178.167.68:8080/res/emb_c_tut/images/c01_p03_i02_code_blink.png (from 68.178.167.68:8080/res/emb_c_tut/c01_p03.html)
+10:41:25	Warning: 	Retry after error -4 (Connect Error) at link 68.178.167.68:8080/res/emb_c_tut/c01_p09.html (from 68.178.167.68:8080/res/emb_c_tut/c01_p10.html)
+10:41:29	Warning: 	Retry after error -4 (Connect Error) at link 68.178.167.68:8080/res/emb_c_tut/c01_p06.html (from 68.178.167.68:8080/res/emb_c_tut/c01_p05.html)
+10:41:46	Warning: 	Retry after error -4 (Connect Error) at link 68.178.167.68:8080/res/emb_c_tut/c01_p09.html (from 68.178.167.68:8080/res/emb_c_tut/c01_p10.html)
+10:43:32	Warning: 	Retry after error -4 (Connect Error) at link 68.178.167.68:8080/res/emb_c_tut/c03_p08.html (from 68.178.167.68:8080/res/emb_c_tut/c03_p07.html)
+10:43:33	Warning: 	Retry after error -4 (Connect Error) at link 68.178.167.68:8080/res/emb_c_tut/c01_p08.html (from 68.178.167.68:8080/res/emb_c_tut/c01_p09.html)
+10:43:33	Warning: 	Retry after error -4 (Connect Error) at link 68.178.167.68:8080/res/emb_c_tut/images/c02_p06_i01_wz_anim.gif (from 68.178.167.68:8080/res/emb_c_tut/c02_p06.html)
+10:43:33	Warning: 	Retry after error -4 (Connect Error) at link 68.178.167.68:8080/res/emb_c_tut/images/c02_p06_i02_code_wz_01_not.png (from 68.178.167.68:8080/res/emb_c_tut/c02_p06.html)
+10:43:54	Warning: 	Retry after error -4 (Connect Error) at link 68.178.167.68:8080/res/emb_c_tut/c01_p08.html (from 68.178.167.68:8080/res/emb_c_tut/c01_p09.html)
+10:43:54	Warning: 	Retry after error -4 (Connect Error) at link 68.178.167.68:8080/res/emb_c_tut/images/c02_p06_i01_wz_anim.gif (from 68.178.167.68:8080/res/emb_c_tut/c02_p06.html)
+10:44:15	Error: 	"Connect Error" (-4) after 2 retries at link 68.178.167.68:8080/res/emb_c_tut/images/c02_p06_i01_wz_anim.gif (from 68.178.167.68:8080/res/emb_c_tut/c02_p06.html)
+10:44:15	Warning: 	Retry after error -4 (Connect Error) at link 68.178.167.68:8080/res/emb_c_tut/c03_p10.html (from 68.178.167.68:8080/res/emb_c_tut/c03_p09.html)
+10:44:37	Warning: 	Retry after error -4 (Connect Error) at link 68.178.167.68:8080/res/emb_c_tut/c03_p11.html (from 68.178.167.68:8080/res/emb_c_tut/c03_p10.html)
+10:44:58	Warning: 	Retry after error -4 (Connect Error) at link 68.178.167.68:8080/res/emb_c_tut/c03_p11.html (from 68.178.167.68:8080/res/emb_c_tut/c03_p10.html)
+10:45:23	Warning: 	Retry after error -4 (Connect Error) at link 68.178.167.68:8080/res/emb_c_tut/c03_p16.html (from 68.178.167.68:8080/res/emb_c_tut/c03_p15.html)
+10:45:48	Warning: 	Retry after error -4 (Connect Error) at link 68.178.167.68:8080/res/emb_c_tut/c03_p20.html (from 68.178.167.68:8080/res/emb_c_tut/c03_p19.html)
+10:46:20	Warning: 	Retry after error -4 (Connect Error) at link 68.178.167.68:8080/res/emb_c_tut/c03_p25.html (from 68.178.167.68:8080/res/emb_c_tut/c03_p24.html)
+10:46:21	Error: 	"Not Found" (404) at link 68.178.167.68:8080/res/emb_c_tut/c04_p01.html (from 68.178.167.68:8080/res/emb_c_tut/c03_p25.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 10 minutes 33 seconds : 116 links scanned, 83 files written (1418900 bytes overall) [1438478 bytes received at 2272 bytes/sec]
+(3 errors, 29 warnings, 0 messages)

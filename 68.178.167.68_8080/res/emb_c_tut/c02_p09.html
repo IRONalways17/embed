@@ -1,0 +1,98 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+ 
+<!-- Mirrored from 68.178.167.68:8080/res/emb_c_tut/c02_p09.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 04 Feb 2025 05:11:01 GMT -->
+<head>
+  <title>C Programming for Embedded Systems Chapter 2 Page 9 </title>
+  <meta name="Author" content="WittyRobo">
+  <meta name="Keywords" content="Robotics, microcontroller, opensource, programming, project, Arduino UNO, Atmega328P, POV Display">
+  <meta name="Description" content="Opensource robotics hardware">
+  <link rel="stylesheet" type="text/css" href="styl_povpd.css" />
+ </head>
+
+ <body>
+ <div id=content>
+<!-- This page is downloaded from www.WittyRobo.org -->
+ <table>
+	<tr>
+    	<td><a href="http://68.178.167.68:8080/res/index.html">WR Home</a>  &nbsp;&nbsp;&nbsp;&nbsp; <a href="index.html">Topic Home</a></td>
+        <td>  &nbsp;&nbsp;&nbsp;&nbsp; Chapter: <a href="c01_p01.html">&nbsp;1&nbsp;</a><a href="c02_p01.html">&nbsp;2&nbsp;</a>
+        </td>
+	</tr>
+	<tr>
+<td><a href="c02_p08.html">&lt;Previous</a></td>
+
+<td><a href="c02_p10.html">Next&gt;</a></td>
+
+	</tr>
+ </table>
+ <hr>
+<!-- ###### -->
+<h2>Chapter 02 </h2>
+<h3>Blinking the LEDs in a more controlled way !</h3>
+<h4>Page  9</h4>
+<h5></h5>
+<b></b>
+  
+<br><br>
+The function inportb(port_address) returns the data on port. The data which was sent last time and which got latched on the port, can be retrived by this function.
+<br><br> The main use of this function is to get input data from a give port, but if a port is an &quot;output-only&quot; port, then this function returns the last value sent to the port, which was latched.
+<br><br>
+old_data = inportb(PP);
+<br><br> will give us the data sent last time.
+
+<br><br> Using this function <b>can you modify the previous program</b>, to add a third option for the user.
+
+<br>Give 3 options to the user for each LED
+<br>
+<br>Now, develop a program, which asks eight questions:
+<ol>
+	<li>Do You want to switch ON LED# 1 ? Yes/No/Toggle
+	<li>Do You want to switch ON LED# 2 ? Yes/No/Toggle
+	<li>Do You want to switch ON LED# 3 ? Yes/No/Toggle
+	<li>....
+	<li>....
+	<li>....
+	<li>....
+	<li>Do You want to switch ON LED# 8 ? Yes/No/Toggle
+</ol>
+  <br>
+<br><br> By using the third option the user can change the state of the LED. 
+<br>Here <b>Toggle</b> means invert the previous state of LED: 
+<br>Switch it ON if it was OFF
+<br>Switch it OFF if it was ON
+<br>But the user might even don’t know whether it was ON or OFF
+<br><br> The solution is given on next page
+
+<br>HINT: 
+
+<ol>
+	<li>Remember XOR ?
+	<li>AND is used to forcibly &quot;zero-out&quot; a bit
+	<li>OR&nbsp; is used to forcibly &quot;set&quot; a bit
+	<li>XOR is used to forcibly &quot;complement&quot; a bit
+</ol>
+<br><br>
+
+<!-- ###### -->
+ <hr>
+ <table>
+	<tr>
+    	<td><a href="http://68.178.167.68:8080/res/index.html">WR Home</a>  &nbsp;&nbsp;&nbsp;&nbsp; <a href="index.html">Topic Home</a></td>
+        <td>  &nbsp;&nbsp;&nbsp;&nbsp; Chapter: <a href="c01_p01.html">&nbsp;1&nbsp;</a><a href="c02_p01.html">&nbsp;2&nbsp;</a>
+        </td>
+	</tr>
+	<tr>
+<td><a href="c02_p08.html">&lt;Previous</a></td>
+
+<td><a href="c02_p10.html">Next&gt;</a></td>
+
+	</tr>
+ </table>
+ </p></div>
+ </body>
+
+
+<!-- Mirrored from 68.178.167.68:8080/res/emb_c_tut/c02_p09.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 04 Feb 2025 05:11:01 GMT -->
+</html>
+<!-- This page is downloaded from www.WittyRobo.org -->

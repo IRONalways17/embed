@@ -1,0 +1,101 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+ 
+<!-- Mirrored from 68.178.167.68:8080/res/emb_c_tut/c03_p13.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 04 Feb 2025 05:15:00 GMT -->
+<head>
+  <title> Persistence of Vision Propeller Display Chapter 3 Page 13 </title>
+  <meta name="Author" content="WittyRobo">
+  <meta name="Keywords" content="Bit Manipulation">
+  <meta name="Description" content="Bit Manipulation Questions">
+  <link rel="stylesheet" type="text/css" href="styl_povpd.css" />
+ </head>
+
+ <body>
+ <div id=content>
+<!-- This page is downloaded from www.WittyRobo.org -->
+ <table>
+	<tr>
+    	<td><a href="http://68.178.167.68:8080/res/index.html">WR Home</a>  &nbsp;&nbsp;&nbsp;&nbsp; <a href="index.html">Topic Home</a></td>
+        <td>  &nbsp;&nbsp;&nbsp;&nbsp; Chapter: <a href="c01_p01.html">&nbsp;1&nbsp;</a><a href="c02_p01.html">&nbsp;2&nbsp;</a><a href="c03_p01.html">&nbsp;3&nbsp;</a>
+        </td>
+	</tr>
+	<tr>
+<td><a href="c03_p12.html">&lt;Previous</a></td>
+
+<td><a href="c03_p14.html">Next&gt;</a></td>
+
+	</tr>
+ </table>
+ <hr>
+<!-- ###### -->
+<h2>Chapter 03 </h2>
+<h3>Commonly used bit-manipulation functions</h3>
+<h4>Page 13</h4>
+<h5>Some Questions on Bit Manipulation</h5>
+<b></b>
+<br><br>
+
+<b>Question:</b> 
+<br><br>You are given two 32 bit numbers, N and M and two bit positions i and j. 
+<br><br>Write a method to insert M into N, such that M starts at bit j and ends at bit i. You can assume that the bits j through i have enough space to fit all M. 
+<br><br>That is, if M = 10011, you can assume that there are at least 5 bits between j and i. You would not, for example have j = 3 and I = 2, because M could not fully fit between bit 3 and bit 2.
+<br>
+<br><b>Example:</b>
+<br>
+<br>
+<pre>
+<br>Input  N = 11000000001, M <font size="" color="#0000FF">10011</font>, i =2, j = 6
+<br>Output N = 1100<font size="" color="#0000FF">10011</font>01
+</pre><br>
+<br><b>Illustration :</b>
+<br>
+<br>
+<pre><br>
+                j   i
+                |   |
+Bit Number: 1000<font size="" color="#FF3333">00000</font>00
+            0987<font size="" color="#FF3333">65432</font>10
+            |||||||||||
+  Input N = 1100<font size="" color="#33FF33">00000</font>01
+                ^^^^^
+                |||||
+             M  10011
+</pre>
+<b>HINT:</b>
+<br><b>.</b><br><b>.</b><br><b>.</b><br><b>.</b><br><b>.</b><br><b>.</b>
+<br><br>
+<ol>
+	<li> Clear the bits j through i in N
+	<li> Shift M so that it lines up with bit j and i
+	<li> Merge M and N
+</ol>
+
+<br><hr>
+<br><b>Reference (Book):</b>
+<br>Craking the coding interview (Fifth Edition)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gayle Laakmann McDowell
+<br>
+<br>(Detailed solution is given in book)<br>
+<br><br><br>
+<!-- ###### -->
+<hr>
+ <table>
+	<tr>
+    	<td><a href="http://68.178.167.68:8080/res/index.html">WR Home</a>  &nbsp;&nbsp;&nbsp;&nbsp; <a href="index.html">Topic Home</a></td>
+        <td>  &nbsp;&nbsp;&nbsp;&nbsp; Chapter: <a href="c01_p01.html">&nbsp;1&nbsp;</a><a href="c02_p01.html">&nbsp;2&nbsp;</a><a href="c03_p01.html">&nbsp;3&nbsp;</a>
+        </td>
+	</tr>
+	<tr>
+<td><a href="c03_p12.html">&lt;Previous</a></td>
+
+<td><a href="c03_p14.html">Next&gt;</a></td>
+
+	</tr>
+ </table>
+ </p></div>
+ </body>
+
+
+<!-- Mirrored from 68.178.167.68:8080/res/emb_c_tut/c03_p13.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 04 Feb 2025 05:15:01 GMT -->
+</html>
+<!-- This page is downloaded from www.WittyRobo.org -->
